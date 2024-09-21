@@ -1,0 +1,102 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(../imagens/mac-background-jszpwyk6hypotx1q.jpg);
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+  }
+  
+  #login {
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(15px); 
+    padding: 20px;
+  }
+  
+  #login #inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    cursor: pointer;
+    color: rgb(223, 219, 219);
+    transform: scale(2.0);
+  }
+  #login #inputs input{
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px); 
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 15px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    outline: none;
+    transition: all 0.3s ease; 
+  }
+  
+  #login #inputs input:focus {
+    border-color: #007BFF; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  #login button{
+    background: white;
+    backdrop-filter: blur(10px); 
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  #login p:hover{
+    cursor: pointer; transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  #login button:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+    transform: scale(1.05); 
+  }
+  
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+  }
+  
+  h3{
+    color: white;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+  }
+  
